@@ -29,6 +29,9 @@
     height: 35rem;
 }
 
+.about-gif{
+    display: none;
+}
 .about-hr{
     border: none;
     border-top: 2px solid rgb(10, 10, 114);
@@ -204,8 +207,15 @@
         margin: 0;
     }
     
-    .about-img > img{
-        height: 12rem;
+    .img{
+        display: none;
+        height: 10rem;
+    }
+
+    .about-gif{
+        display: flex;
+  
+
     }
     
     .about-hr{

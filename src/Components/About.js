@@ -13,13 +13,16 @@ import mysql from '../images/mysql.png'
 import java from '../images/java.png'
 import python from '../images/python.png'
 
+import gif from '../images/gif.gif'
+
 export const About = () => {
   return (
     <>
         <div className='about-main'>
 
             <div className='about-img'>
-                <img src='about.jpeg' alt=''/>
+                <img src='about.jpeg' alt='' className='img'/>
+                <img src={gif} alt='' className='about-gif'/>
             </div>
 
             <div className='about-detail'>
