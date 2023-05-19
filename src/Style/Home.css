@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Rubik:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    margin: 1rem 2rem 1rem 1rem;
+    display: flex; 
+    background-color: rgb(240, 240, 240);
+
+}
+
+.image01{
+    margin: 2rem;
+}
+
+.image01 > img{
+    height: 37rem;
+}
+
+.details{
+    margin: 7rem 0 0 4rem;
+}
+
+.details01{
+    margin: 1rem 0 2rem 5rem;
+}
+
+.details-h1{
+    font-size: 50px;
+    margin: 5rem 0 0.5rem 2rem;
+    /* text-shadow: 5px 5px 10px rgb(76, 163, 229); */
+    font-family: 'Rubik';
+    font-style: italic;
+    color: rgb(23, 56, 90);
+}
+
+.details-h2{
+    color: rgb(8, 8, 8);
+    font-size: 25px;
+    margin:2rem;
+    font-family: 'Rubik';
+    font-weight: 600;
+}
+
+.details-h3{
+    color: black;
+    font-weight: 600;
+    font-size: 60px;
+    font-family: 'Castoro Titling';
+}
+
+.details-h3 > strong{
+    color: rgb(148, 119, 13);
+    font-size: 85px;
+    /* text-shadow: 5px 5px 40px rgb(238, 238, 164); */
+}
+
+.details-h4{
+    font-size: 30px;
+    color: rgb(56, 193, 18);
+}
+
+.details-h4 > strong{
+    font-size: 40px;
+
+}
+
+.details02{
+    width: 35rem;
+    border: none;
+    border-top: 3.5px solid #7f7612;
+    margin: 0 0 1rem 5rem;
+    color: black;
+}
+
+.details-h5{
+    margin: 0 0 0 5rem;
+    font-size: 20px;
+
+}
+
+.details03{
+    margin: 1rem 0 0 10rem;
+}
+
+.details03 > a > img{
+    height: 3.5rem;
+    margin: 1rem;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .image01{
+        margin: 1rem;
+    }
+    
+    .image01 > img{
+        height: 27rem;
+    }
+    
+    .details{
+        margin: 3rem 0 0 2rem;
+    }
+    
+    .details01{
+        margin: 0 0 1rem 4rem;
+    }
+    
+    .details-h1{
+        font-size: 35px;
+    }
+    
+    .details-h2{
+        font-size: 20px;
+        margin:1.5rem;
+        font-weight: 500;
+    }
+    
+    .details-h3{
+        font-size: 50px;
+    }
+    
+    .details-h3 > strong{
+        font-size: 70px;
+    }
+    
+    .details-h4{
+        font-size: 20px;
+    }
+    
+    .details-h4 > strong{
+        font-size: 30px;
+    }
+    
+    .details02{
+        width: 25rem;
+        border: none;
+        border-top: 3px solid #7f7612;
+        margin: 0 0 1rem 5rem;
+        color: black;
+    }
+    
+    .details-h5{
+        margin: 0 0 0 4rem;
+        font-size: 15px;
+    
+    }
+    
+    .details03{
+        margin: 2rem 0 0 7rem;
+    }
+    
+    .details03 > a > img{
+        height: 3rem;
+        margin: 0.5rem;
+    }
+    
+}
+
+@media only screen and (max-width: 992px) {
+    .image01{
+        margin: 0.8rem;
+    }
+    
+    .image01 > img{
+        height: 20rem;
+    }
+    
+    .details{
+        margin: 2rem 0 0 1.5rem;
+    }
+    
+    .details01{
+        margin: 0 0 1rem 3rem;
+    }
+    
+    .details-h1{
+        font-size: 25px;
+    }
+    
+    .details-h2{
+        font-size: 15px;
+        margin:1.1rem;
+    }
+    
+    .details-h3{
+        font-size: 35px;
+    }
+    
+    .details-h3 > strong{
+        font-size: 50px;
+    }
+    
+    .details-h4{
+        font-size: 15px;
+    }
+    
+    .details-h4 > strong{
+        font-size: 20px;
+    }
+    
+    .details02{
+        width: 20rem;
+        border-top: 2px solid #7f7612;
+        margin: 0 0 0.5rem 3rem;
+    }
+    
+    .details-h5{
+        margin: 0 0 0 3rem;
+        font-size: 12px;
+    
+    }
+    
+    .details03{
+        margin: 1rem 0 0 5rem;
+    }
+    
+    .details03 > a > img{
+        height: 2rem;
+        margin: 0.2rem;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .image01{
+        margin: 0.5rem;
+    }
+    
+    .image01 > img{
+        height: 15rem;
+    }
+    
+    .details{
+        margin: 1rem 0 0 0.5rem;
+    }
+    
+    .details01{
+        margin: 0 0 0.5rem 2rem;
+    }
+    
+    .details-h1{
+        font-size: 15px;
+    }
+    
+    .details-h2{
+        font-size: 10px;
+        margin:0.8rem;
+    }
+    
+    .details-h3{
+        font-size: 25px;
+    }
+    
+    .details-h3 > strong{
+        font-size: 35px;
+    }
+    
+    .details-h4{
+        font-size: 12px;
+    }
+    
+    .details-h4 > strong{
+        font-size: 16px;
+    }
+    
+    .details02{
+        width: 15rem;
+        border-top: 2px solid #7f7612;
+        margin: 0 0 0.5rem 2rem;
+    }
+    
+    .details-h5{
+        margin: 0 0 0 2rem;
+        font-size: 10px;
+    
+    }
+    
+    .details03{
+        margin: 0.5rem 0 0 4rem;
+    }
+    
+    .details03 > a > img{
+        height: 1.5rem;
+        margin: 0.1rem;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+        display: block;
+        padding-bottom: 0.5rem;
+    }
+    .image01{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .image01 > img{
+        display: none;
+        height: 12rem;
+    }
+    
+    .details{
+        margin: 0;
+    }
+    
+    .details01{
+        margin: 0 0 0.5rem 1rem;
+    }
+    
+    .details-h1{
+        font-size: 12px;
+    }
+    
+    .details-h2{
+        font-size: 8px;
+        margin:0.5rem;
+    }
+    
+    .details-h3{
+        font-size: 15px;
+    }
+    
+    .details-h3 > strong{
+        font-size: 20px;
+    }
+    
+    .details-h4{
+        font-size: 10px;
+    }
+    
+    .details-h4 > strong{
+        font-size: 13px;
+    }
+    
+    .details02{
+        width: 10rem;
+        border-top: 1px solid #7f7612;
+        margin: 0 0 0.3rem 1rem;
+    }
+    
+    .details-h5{
+        margin: 0 3rem 0 1rem;
+        font-size: 8px;
+    
+    }
+    
+    .details03{
+        margin: 0.5rem 0 0 2rem;
+    }
+    
+    .details03 > a > img{
+        height: 1.5rem;
+        margin: 0.3rem;
+    }
+    
+}

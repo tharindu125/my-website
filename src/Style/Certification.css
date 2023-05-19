@@ -1,0 +1,128 @@
+.Certi-main{
+    margin: 1rem 2rem 1rem 1rem;
+    background-color: rgb(240, 240, 240);
+}
+
+.Certi-main > h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(198, 34, 243);
+    padding: 1rem;
+}
+
+.Certi-body{
+    display: flex;
+    margin: 1rem;
+}
+
+.Certi-img{
+    margin: 1rem;
+}
+.Certi-img > a > img{
+    height: 10rem;
+    margin-bottom: 10px;
+}
+
+.Certi-img > a > span{
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Certi-main > h1{
+        font-size: 27px;
+        padding: 0.8rem;
+    }
+    
+    .Certi-body{
+        margin: 0.8rem;
+    }
+    
+    .Certi-img{
+        margin: 0.8rem;
+    }
+    .Certi-img > a > img{
+        height: 7rem;
+        margin-bottom: 6px;
+    }
+    
+    .Certi-img > a > span{
+       font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .Certi-main > h1{
+        font-size: 22px;
+        padding: 0.5rem;
+    }
+    
+    .Certi-body{
+        margin: 0.5rem;
+    }
+    
+    .Certi-img{
+        margin: 0.5rem;
+    }
+    .Certi-img > a > img{
+        height: 5rem;
+        margin-bottom: 4px;
+    }
+    
+    .Certi-img > a > span{
+       font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Certi-main > h1{
+        font-size: 18px;
+        padding: 0.3rem;
+    }
+    
+    .Certi-body{
+        margin: 0.4rem;
+    }
+    
+    .Certi-img{
+        margin: 0.5rem;
+    }
+    .Certi-img > a > img{
+        height: 4rem;
+        margin-bottom: 2px;
+    }
+    
+    .Certi-img > a > span{
+       font-size: 7px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Certi-main > h1{
+        font-size: 15px;
+        padding: 0.3rem;
+    }
+    
+    .Certi-body{
+        display: block;
+        margin: 0.4rem;
+    }
+    
+    .Certi-img{
+        margin: 0.3rem;
+        display: flex;
+    }
+    .Certi-img > a > img{
+        height: 2rem;
+        margin-bottom: 2px;
+    }
+    
+    .Certi-img > a > span{
+        
+        margin: 1rem;
+        font-size: 7px;
+    }
+}

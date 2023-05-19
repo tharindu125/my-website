@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Rubik:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400&display=swap');
+
+.about-main{
+    margin: 1rem 2rem 1rem 1rem;
+    display: flex; 
+    background-color: rgb(240, 240, 240);
+}
+.about-detail{
+    margin: 5rem 4rem 2rem 4rem;
+}
+
+.about-detail > h1{
+    font-size: 40px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    color: rgb(10, 10, 114);
+    
+}
+
+.about-parh{
+    margin: 1rem 0 1rem 0;  
+}
+
+.about-img{
+    margin: 2rem;
+}
+
+.about-img > img{
+    height: 35rem;
+}
+
+.about-hr{
+    border: none;
+    border-top: 2px solid rgb(10, 10, 114);
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+.about-detail > h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgb(50, 50, 175);
+}
+
+.about-icons{
+    height: 5rem;
+    margin: 3px 3px 3px 3px;
+}
+
+.about-icons-tailwind{
+    height: 3rem;
+    margin:  1.1rem 1.1rem 1.1rem 0.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .about-detail{
+        margin: 2rem 2rem 1rem 1rem;
+    }
+    
+    .about-detail > h1{
+        font-size: 30px;
+    }
+    
+    .about-parh{
+        font-size: 13px;
+    }
+    
+    .about-img{
+        margin: 2rem;
+    }
+    
+    .about-img > img{
+        height: 27rem;
+    }
+    
+    .about-hr{
+        margin: 1rem 2rem 1rem 1rem;
+    }
+    
+    .about-detail > h2{
+        font-size: 20px;
+    }
+    
+    .about-icons{
+        height: 2rem;
+        margin: 2px;
+    }
+    
+    .about-icons-tailwind{
+        height: 2rem;
+        margin:  0.5rem 0.5rem 0.5rem 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .about-detail{
+        margin: 1.5rem 1.5rem 0.8rem 0.8rem;
+    }
+    
+    .about-detail > h1{
+        font-size: 25px;
+    }
+    
+    .about-parh{
+        font-size: 10px;
+    }
+    
+    .about-img{
+        margin: 1.2rem;
+    }
+    
+    .about-img > img{
+        height: 21rem;
+    }
+    
+    .about-hr{
+        margin: 0 2rem 0.5rem 1rem;
+    }
+    
+    .about-detail > h2{
+        font-size: 17px;
+    }
+    
+    .about-icons{
+        height: 1.5rem;
+        margin: 1.5px;
+    }
+    
+    .about-icons-tailwind{
+        height: 1.5rem;
+        margin:  0.3rem;
+    }    
+}
+
+@media only screen and (max-width: 768px) {
+    .about-detail{
+        margin: 1rem 1rem 0.5rem 0.5rem;
+    }
+    
+    .about-detail > h1{
+        font-size: 20px;
+    }
+    
+    .about-parh{
+        font-size: 8px;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+    
+    .about-img{
+        margin: 0.5rem;
+    }
+    
+    .about-img > img{
+        height: 17rem;
+    }
+    
+    .about-hr{
+        margin: 0 2rem 0.5rem 1rem;
+        border-top: 1px solid rgb(10, 10, 114);
+    }
+    
+    .about-detail > h2{
+        font-size: 14px;
+    }
+
+    .about-image-icons{
+        margin-left: 1rem;
+    }
+    
+    .about-icons{
+        height: 1.2rem;
+        margin: 1.5px;
+    }
+    
+    .about-icons-tailwind{
+        height: 1.2rem;
+        margin:  0.2rem;
+    }    
+}
+
+@media only screen and (max-width: 600px) {
+    .about-main{
+        display: block;
+        padding: 0.5rem;
+    }
+    .about-detail{
+        margin: 1rem 1rem 0.5rem 0.5rem;
+    }
+    
+    .about-detail > h1{
+        font-size: 20px;
+    }
+    
+    .about-parh{
+        font-size: 8px;
+        margin: 0.5rem 0.5rem 0.5rem 0;
+    }
+    
+    .about-img{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .about-img > img{
+        height: 12rem;
+    }
+    
+    .about-hr{
+        margin: 0 2rem 0.5rem 1rem;
+        border-top: 1px solid rgb(10, 10, 114);
+    }
+    
+    .about-detail > h2{
+        font-size: 12px;
+    }
+
+    .about-image-icons{
+        margin-left: 1rem;
+    }
+    
+    .about-icons{
+        height: 1rem;
+        margin: 1.5px;
+    }
+    
+    .about-icons-tailwind{
+        height: 1rem;
+        margin:  0.2rem;
+    }    
+}
