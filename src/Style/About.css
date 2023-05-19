@@ -218,7 +218,7 @@
     }
 
     .about-gif{
-        display: flex;
+        display: none;
     }
     
     .about-hr{
@@ -235,12 +235,12 @@
     }
     
     .about-icons{
-        height: 1.3rem;
-        margin: 3.5px;
+        height: 2rem;
+        margin: 4px;
     }
     
     .about-icons-tailwind{
-        height: 1.3rem;
-        margin:  0.4rem;
+        height: 2rem;
+        margin:  0.6rem;
     }    
 }

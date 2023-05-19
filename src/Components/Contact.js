@@ -8,6 +8,10 @@ export const Contact = () => {
             <h1> GeT In Touch</h1>
         </div>
 
+        <div className='contact-img'>
+            <img src='https://media.giphy.com/media/wLNuW1tCKRiPmDV5Y4/giphy.gif' alt=''/>
+        </div>
+
         <div className='contact-body'>
 
             <div className='about01'>

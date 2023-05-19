@@ -15,6 +15,14 @@
     font-family: 'Rubik';
 }
 
+.contact-img{
+    display: flex;
+    justify-content: center;
+}
+.contact-img > img{
+    display: none;
+    height: 25rem;
+}
 .contact-body{
     display: flex;
     margin: 1rem;
@@ -168,9 +176,13 @@
 @media only screen and (max-width: 600px) {
     .contact{
         padding: 0.3rem;
-        font-size: 10px;
+        font-size: 12px;
     }
     
+    .contact-img > img{
+        display: flex;
+        height: 12rem;
+    }
     .contact-body{
         display: block;
         padding: 1rem;
@@ -199,4 +211,4 @@
     .contact02 > a > img{
         height: 1.8rem;
     }
-}
+} 

@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
+import navbar from '../images/navbar.png'
 
 const Navbar = () => {
 
@@ -14,6 +15,7 @@ const Navbar = () => {
         <nav className='navbar'>
 
             <h1 className='navbar-name'>Tharindu Ranaweera</h1>
+            <img src={navbar} alt='' className='navbar-img'/>
 
             <div>
                 <div class="navbar-header">
