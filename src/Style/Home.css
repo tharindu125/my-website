@@ -291,7 +291,6 @@
 
 @media only screen and (max-width: 600px) {
     .main{
-        display: block;
         padding-bottom: 0.5rem;
     }
     .image01{
@@ -300,8 +299,8 @@
     }
     
     .image01 > img{
-        display: none;
-        height: 12rem;
+       
+        height: 10rem;
     }
     
     .details{
