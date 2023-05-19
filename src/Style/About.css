@@ -18,6 +18,7 @@
 }
 
 .about-parh{
+    text-align: justify;
     margin: 1rem 0 1rem 0;  
 }
 
@@ -189,15 +190,16 @@
         padding: 0.5rem;
     }
     .about-detail{
-        margin: 1rem 1rem 0.5rem 0.5rem;
+        margin: 1rem 1rem 0.5rem 1rem;
     }
     
     .about-detail > h1{
+        margin-left: 1rem;
         font-size: 20px;
     }
     
     .about-parh{
-        font-size: 8px;
+        font-size: 10px;
         margin: 0.5rem 0.5rem 0.5rem 0;
     }
     
@@ -207,15 +209,16 @@
         margin: 0;
     }
     
-    .img{
+    .about-img > img{
+        height: 13rem;
+    }
+
+    .about-img01{
         display: none;
-        height: 10rem;
     }
 
     .about-gif{
         display: flex;
-  
-
     }
     
     .about-hr{
@@ -224,7 +227,7 @@
     }
     
     .about-detail > h2{
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .about-image-icons{
@@ -232,12 +235,12 @@
     }
     
     .about-icons{
-        height: 1rem;
-        margin: 1.5px;
+        height: 1.3rem;
+        margin: 3.5px;
     }
     
     .about-icons-tailwind{
-        height: 1rem;
-        margin:  0.2rem;
+        height: 1.3rem;
+        margin:  0.4rem;
     }    
 }

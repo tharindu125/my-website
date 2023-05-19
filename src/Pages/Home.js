@@ -43,7 +43,8 @@ export const Home = () => {
             </div>
 
             <div className='image01'>
-                <img src='my01.jpeg' alt='' />
+                <img src='my01.jpeg' alt=''className='home-img'/>
+                <img src='https://media.giphy.com/media/Y4ak9Ki2GZCbJxAnJD/giphy.gif' alt='' className='home-gif'/>
             </div>  
 
         </div>

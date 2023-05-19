@@ -15,8 +15,12 @@
     margin: 2rem;
 }
 
-.image01 > img{
+.home-img{
     height: 37rem;
+}
+
+.home-gif{
+    display: none;
 }
 
 .details{
@@ -76,6 +80,7 @@
 }
 
 .details-h5{
+    text-align: justify;
     margin: 0 0 0 5rem;
     font-size: 20px;
 
@@ -291,70 +296,79 @@
 
 @media only screen and (max-width: 600px) {
     .main{
+        display: grid;
         padding-bottom: 0.5rem;
+        padding-top: 1rem;
     }
     .image01{
         display: flex;
         justify-content: center;
     }
     
-    .image01 > img{
-       
+    .image01 > img{ 
         height: 10rem;
+    }
+
+    .home-img{
+        display: none;
+    }
+
+    .home-gif{
+        display: block;     
     }
     
     .details{
-        margin: 0;
+        margin: 1rem 0 0.5rem 1rem;
     }
     
     .details01{
-        margin: 0 0 0.5rem 1rem;
+        margin: 0 0 0.5rem 2rem;
     }
     
     .details-h1{
-        font-size: 12px;
+        font-size: 17px;
     }
     
     .details-h2{
-        font-size: 8px;
-        margin:0.5rem;
+        font-size: 12px;
+        margin: 1rem;
     }
     
     .details-h3{
-        font-size: 15px;
+        font-size: 23px;
     }
     
     .details-h3 > strong{
-        font-size: 20px;
+        font-size: 35px;
     }
     
     .details-h4{
-        font-size: 10px;
-    }
-    
-    .details-h4 > strong{
         font-size: 13px;
     }
     
+    .details-h4 > strong{
+        font-size: 16px;
+    }
+    
     .details02{
-        width: 10rem;
+        width: 12rem;
         border-top: 1px solid #7f7612;
-        margin: 0 0 0.3rem 1rem;
+        margin: 0 0 0.3rem 2rem;
     }
     
     .details-h5{
-        margin: 0 3rem 0 1rem;
-        font-size: 8px;
+        margin: 0 3rem 0 2rem;
+        font-size: 12px;
     
     }
     
     .details03{
-        margin: 0.5rem 0 0 2rem;
+        margin: 1rem 0 0 3rem;
     }
     
     .details03 > a > img{
-        height: 1.5rem;
-        margin: 0.3rem;
+        height: 2rem;
+        margin: 0.5rem ;
     }
     
 }

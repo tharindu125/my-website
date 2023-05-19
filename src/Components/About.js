@@ -21,7 +21,7 @@ export const About = () => {
         <div className='about-main'>
 
             <div className='about-img'>
-                <img src='about.jpeg' alt='' className='img'/>
+                <img src='about.jpeg' alt='' className='about-img01'/>
                 <img src={gif} alt='' className='about-gif'/>
             </div>
 

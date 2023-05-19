@@ -103,12 +103,12 @@
 @media only screen and (max-width: 600px) {
     .Certi-main > h1{
         font-size: 15px;
-        padding: 0.3rem;
+        padding: 0.4rem;
     }
     
     .Certi-body{
         display: block;
-        margin: 0.4rem;
+        margin: 0.4rem 0 0 2rem;
     }
     
     .Certi-img{
@@ -116,13 +116,11 @@
         display: flex;
     }
     .Certi-img > a > img{
-        height: 2rem;
-        margin-bottom: 2px;
+        height: 3rem;
     }
     
-    .Certi-img > a > span{
-        
+    .Certi-img > a > span{     
         margin: 1rem;
-        font-size: 7px;
+        font-size: 8.5px;
     }
 }
