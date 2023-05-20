@@ -2,17 +2,32 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .main{
     margin: 1rem 2rem 1rem 1rem;
     display: flex; 
     background-color: rgb(240, 240, 240);
+    overflow: hidden;
+}
 
+.move{
+    transform: translateY(-50px);
+    transition: all ease 2s;
+    overflow: hidden;
+}
+
+.animate{
+    /* box-shadow: 0px 0px 40px rgb(255, 170, 0); */
+    transform: translateY(0);
 }
 
 .image01{
     margin: 2rem;
+    transform: translateY(50px);
+    transition: all ease 2s;
+
 }
 
 .home-img{
@@ -93,7 +108,15 @@
 .details03 > a > img{
     height: 3.5rem;
     margin: 1rem;
+    transition: all 1s;
 }
+
+.details03 > a > img:hover{
+    box-shadow: 0px 0px 20px rgb(78, 112, 196);
+    background-color: transparent;
+    border-radius: 50%;
+}
+
 
 
 @media only screen and (max-width: 1200px) {

@@ -1,6 +1,7 @@
 .Certi-main{
     margin: 1rem 2rem 1rem 1rem;
     background-color: rgb(240, 240, 240);
+    overflow: hidden;
 }
 
 .Certi-main > h1{
@@ -16,6 +17,12 @@
 .Certi-body{
     display: flex;
     margin: 1rem;
+    transform: translateY(50px);
+    transition: all 2s;
+}
+
+.animate{
+    transform: translateY(0);
 }
 
 .Certi-img{
@@ -123,4 +130,4 @@
         margin: 1rem;
         font-size: 8.5px;
     }
-}
+} 

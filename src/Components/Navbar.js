@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
 import navbar from '../images/navbar.png'
 
 const Navbar = () => {
@@ -27,10 +26,10 @@ const Navbar = () => {
                     </button>
                 </div>
                 <ul className={`navbar-ul ${isMenuOpen ? 'show' : ''}`}>
-                    <Link to="/" className='navbar-element'>Home</Link>
-                    <Link to="/About" className='navbar-element'>About</Link>
-                    <Link to="/Certifications" className='navbar-element'>Certification & Awardes</Link>
-                    <Link to="/Contact" className='navbar-element'>Contact</Link>
+                    <a href="#home" className='navbar-element'>Home</a>
+                    <a href="#about" className='navbar-element'>About</a>
+                    <a href="#certifications" className='navbar-element'>Certification & Awardes</a>
+                    <a href="#contact" className='navbar-element'>Contact</a>
                 </ul>
             </div>
             

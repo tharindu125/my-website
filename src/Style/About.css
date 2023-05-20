@@ -4,9 +4,12 @@
     margin: 1rem 2rem 1rem 1rem;
     display: flex; 
     background-color: rgb(240, 240, 240);
+    overflow: hidden;
 }
 .about-detail{
     margin: 5rem 4rem 2rem 4rem;
+    transform: translateY(50px);
+    transition: all 2s;
 }
 
 .about-detail > h1{
@@ -14,7 +17,7 @@
     font-family: 'Rubik';
     font-weight: 500;
     color: rgb(10, 10, 114);
-    
+    transition: all 2s;
 }
 
 .about-parh{
@@ -24,6 +27,13 @@
 
 .about-img{
     margin: 2rem;
+    transform: translateY(-50px);
+    transition: all 2s;
+}
+
+.animate{
+    /* box-shadow: 0px 0px 40px rgb(255, 170, 0); */
+    transform: translateY(0);
 }
 
 .about-img > img{
