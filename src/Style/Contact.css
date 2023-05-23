@@ -16,7 +16,7 @@
 }
 
 .contact-img{
-    display: flex;
+    display: flex; 
     justify-content: center;
 }
 .contact-img > img{
@@ -29,6 +29,7 @@
     padding: 4rem;
     background-color: rgba(184, 143, 238, 0.686);
     color: rgb(0, 0, 0);
+    overflow: hidden;
 }
 
 .contact-span{
@@ -202,6 +203,19 @@
         font-size: 12px;
     }
     
+    .contact01{
+        transform: translateX(-50px);
+        transition: all 2s;
+    }
+
+    .contact02{
+        transform: translatex(50px);
+        transition: all 2s;
+    }
+
+    .animate{
+        transform: translateX(0);
+    }
     .contact-img > img{
         display: flex;
         height: 12rem;

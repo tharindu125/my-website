@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect} from 'react';
 
 /*About page*/
 import html from '../images/html.png'
@@ -22,6 +22,7 @@ import hackerank from '../images/Cerificate/hackerank.png'
 import simplilearn from '../images/Cerificate/simplilearn.png'
 import sololearn from '../images/Cerificate/sololearn.png'
 import uom from '../images/Cerificate/uom.png'
+
 
 export const Home = () => {
 
@@ -94,7 +95,7 @@ export const Home = () => {
 
                         <div className='details03'>
 
-                            <a href='https://github.com/tharindu125'>
+                            <a href='https://web.facebook.com/tharindu.ranaweera.503'>
                                 <img src='facebook.png' alt=''  />
                             </a>
                             <a href='https://www.linkedin.com/in/tharindu-ranaweera-748a01250/'>
@@ -114,7 +115,7 @@ export const Home = () => {
                     </div>
 
                     <div className='image01'>
-                        <img src='my01.jpeg' alt=''className='home-img'/>
+                        <img src='profile.png' alt=''className='home-img'/>
                         <img src='https://media.giphy.com/media/Y4ak9Ki2GZCbJxAnJD/giphy.gif' alt='' className='home-gif'/>
                     </div>  
 
@@ -170,29 +171,29 @@ export const Home = () => {
                     <div className='Certi-body'>
 
                         <div className='Certi-img'>
-                            <a href=''><img src={uom} alt=''/></a>
-                            <a href=''><span>Certifications issued by University of Moratuwa</span></a>
+                            <a href="/"><img src={uom} alt=''/></a>
+                            <a href='/'><span>Certifications issued by University of Moratuwa</span></a>
                                         
                         </div>
 
                         <div className='Certi-img'>
-                            <a href=''><img src={hackerank} alt=''/></a>
-                            <a href=''><span>Certifications issued by HackerRank</span></a>
+                            <a href='/'><img src={hackerank} alt=''/></a>
+                            <a href='/'><span>Certifications issued by HackerRank</span></a>
                         </div>
 
                         <div className='Certi-img'>
-                            <a href=''><img src={sololearn} alt=''/></a>
-                            <a href=''><span>Certifications issued by Sololearn</span></a>
+                            <a href='/'><img src={sololearn} alt=''/></a>
+                            <a href='/'><span>Certifications issued by Sololearn</span></a>
                         </div>
 
                         <div className='Certi-img'>
-                            <a href=''><img src={certiprof} alt=''/></a>
-                            <a href=''><span>Certifications issued by CertiProf</span></a>
+                            <a href='/'><img src={certiprof} alt=''/></a>
+                            <a href='/'><span>Certifications issued by CertiProf</span></a>
                         </div>
 
                         <div className='Certi-img'>
-                            <a href=''><img src={simplilearn} alt=''/></a>
-                            <a href=''><span>Certifications issued by simplilearn</span></a>
+                            <a href='/'><img src={simplilearn} alt=''/></a>
+                            <a href='/'><span>Certifications issued by simplilearn</span></a>
                         </div>
 
                     </div>
@@ -230,7 +231,7 @@ export const Home = () => {
                         </div>
                         <div className='contact02'>
 
-                            <a href='https://github.com/tharindu125'>
+                            <a href='https://web.facebook.com/tharindu.ranaweera.503'>
                                 <img src='facebook.png' alt='' />
                             </a>
                             <a href='https://www.linkedin.com/in/tharindu-ranaweera-748a01250/'>
@@ -260,6 +261,7 @@ export const Home = () => {
         </div>
         
     </div>
+
   )
 }
 
