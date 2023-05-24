@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import { BrowserRouter, Route, Routes} from 'react-router-dom'
 
 /*About page*/
 import html from '../images/html.png'
@@ -22,6 +23,7 @@ import hackerank from '../images/Cerificate/hackerank.png'
 import simplilearn from '../images/Cerificate/simplilearn.png'
 import sololearn from '../images/Cerificate/sololearn.png'
 import uom from '../images/Cerificate/uom.png'
+import { Details } from './Details';
 
 
 export const Home = () => {
@@ -71,6 +73,8 @@ export const Home = () => {
           });
         };
       }, []);
+
+
 
   return (
     <div className='container'>
@@ -165,13 +169,14 @@ export const Home = () => {
 
             {/*Cerificates page*/}
             <section id="certifications">
+                <BrowserRouter>
                 <div className='Certi-main'>
                     <h1>Certifications I have</h1>
 
                     <div className='Certi-body'>
 
                         <div className='Certi-img'>
-                            <a href="/"><img src={uom} alt=''/></a>
+                            <a href="/Details"><img src={uom} alt=''/></a>
                             <a href='/'><span>Certifications issued by University of Moratuwa</span></a>
                                         
                         </div>
@@ -199,10 +204,15 @@ export const Home = () => {
                     </div>
 
                 </div>
+                    <Routes>
+                        <Route path='' element={<Details/>}/>
+                    </Routes>
+                </BrowserRouter>
             </section>
 
             {/* Contact page */}
             <section id="contact">
+                
                 <div className='contact-main'>
 
                     <div className='contact'>
@@ -256,6 +266,8 @@ export const Home = () => {
                     </div>
 
                 </div>
+                    
+                
             </section>
 
         </div>
