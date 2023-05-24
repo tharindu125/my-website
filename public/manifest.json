@@ -3,19 +3,9 @@
   "name": "This is my personal website",
   "icons": [
     {
-      "src": "logo152.png",
-      "type": "image/png",
-      "sizes": "16x16 24x24 32x32 64x64"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "16x16 24x24 32x32 64x64 192x192 512x512"
     }
   ],
   "start_url": ".",
