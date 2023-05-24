@@ -1,21 +1,11 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Tharindu Ranaweera",
+  "name": "This is my personal website",
   "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "16x16 32x32 ",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo32.png",
-      "type": "image/png",
-      "sizes": "24x24"
-    },
     {
       "src": "logo152.png",
       "type": "image/png",
-      "sizes": "64x64"
+      "sizes": "16x16 24x24 32x32 64x64"
     },
     {
       "src": "logo192.png",
