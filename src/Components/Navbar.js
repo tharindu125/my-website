@@ -35,7 +35,7 @@ const Navbar = () => {
             
 
             <div>
-                <a href='https://drive.google.com/file/d/1_40rEXQ9n5xHsRfNNkvdXhjvcObdbKIH/view?usp=share_link'>
+                <a href='https://drive.google.com/file/d/1yebIqXAMwbpzPGqjIWEP23VZcM3mAmlC/view?usp=share_link'>
                     <button className='navbar-button'>Download CV</button>
                 </a>
                 
